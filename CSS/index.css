@@ -137,6 +137,17 @@ html {
   flex-direction: column;
   max-width: 100%;
 }
+@media (min-width: 550px) {
+  .mobile-nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-nav {
+    justify-content: flex-end;
+  }
+}
 .mobile-nav a {
   display: flex;
   justify-content: center;
@@ -144,14 +155,27 @@ html {
   text-decoration: none;
   font-size: 150%;
 }
+@media (min-width: 768px) {
+  .mobile-nav a {
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 800px;
+  }
+}
 .header {
+  display: flex;
   padding: 2rem;
   margin-top: 2rem;
   border: 1px solid red;
   text-align: center;
+  font-size: 200%;
+  max-width: 1000px;
+  justify-content: center;
 }
 :root {
   height: 100%;
-  background-image: linear-gradient(to bottom right, #c0e7e9, white);
-  margin: 0, auto;
+  background-image: linear-gradient(to bottom right, #d5e7db, white);
+  margin: auto;
+  overflow: hidden;
+  max-width: 960px;
 }
