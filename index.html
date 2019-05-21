@@ -32,51 +32,53 @@
             </div>
         </header>
         <div class="middle-content">
-            <section>
-                <div class='inputs'>
-                    <p>
-                        <span class="input">
-                            <input type="text" placeholder="Height">
-                            <span></span>
-                        </span>
-                    </p>
+            <section class='gender-age'>
+                <div class="slider-headers">
+                    <h2>Are you a male or female?</h2>
                 </div>
-                <div class="row">
-                    <div class="small-10 columns">
-                        <div class="range-slider" data-slider
-                            data-options="display_selector: #days-off-count; initial: 28;">
-                            <span class="range-slider-handle" role="slider" tabindex="0"></span>
-                            <span class="range-slider-active-segment"></span>
-                        </div>
-                    </div>
-                    <div class="small-2 columns">
-                        <input type="number" id="days-off-count" value="28" />
-                    </div>
+                <div class='inputs'>
+                    <input type="range" min="1" max="2" step="1" value="1" data-orientation="vertical" class="slider"
+                        id="gender">
+                </div>
+                <div class="slider-headers">
+                    <h2>I am <placeholder> years young</h2>
+                </div>
+                <div class="inputs">
+                    <input type="range" min="18" max="75" step="1" value="30" data-orientation="vertical" class="slider"
+                        id="age">
                 </div>
             </section>
-            <section>
+            <section class='weight-height'>
+                <div class="slider-headers">
+                    <h2>Current Height (Cms)</h2>
+                </div>
                 <div class='inputs'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cumque earum harum, minima in eaque
-                        omnis molestias voluptates? Nobis dolorum vero eum fugit expedita atque, exercitationem esse cum
-                        ullam magnam!</p>
+                    <input type="range" min="80" max="240" step="1" value="180" data-orientation="vertical"
+                        class="slider" id="height">
+                </div>
+                <div class="slider-headers">
+                    <h2>Current Weight (lbs)</h2>
+                </div>
+                <div class="inputs">
+                    <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical" class="slider"
+                        id="weight">
+                </div>
+                <div class="slider-headers">
+                    <h2>Goal Weight (lbs)</h2>
+                </div>
+                <div class="inputs">
+                    <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical" class="slider" id="goalWeight">
                 </div>
             </section>
-            <section>
-                <div class='inputs'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis voluptate, tempora modi
-                        voluptates praesentium aut illum vero fugit sit consectetur consequuntur, animi mollitia ipsam
-                        impedit culpa alias est reiciendis!</p>
-                </div>
-            </section>
-        </div>
-        <footer>
-            <nav class='footer-navbar'>
-                <a href="#">Home</a>
-                <a href="#">Macro Calculator</a>
-                <a href="#">Weight Loss Calculators</a>
-                <a href="#">Contact</a>
+            <footer>
+                <nav class='footer-navbar'>
+                    <a href="#">Home</a>
+                    <a href="#">Macro Calculator</a>
+                    <a href="#">Weight Loss Calculators</a>
+                    <a href="#">Contact</a>
+                </nav>
                 Copyright Matt Locklin
-        </footer>
-    </div>
+            </footer>
+        </div>
 
 </body>
