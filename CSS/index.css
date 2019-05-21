@@ -167,6 +167,8 @@ html {
 .footer-navbar {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .footer-navbar a {
   display: flex;
