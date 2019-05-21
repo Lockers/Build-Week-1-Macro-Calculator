@@ -188,6 +188,8 @@ html {
 .title {
   display: flex;
   justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
   font-size: 4rem;
   color: #8484da;
   border-bottom: 1px solid #8c91be;
