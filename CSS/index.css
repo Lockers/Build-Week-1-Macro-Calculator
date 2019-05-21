@@ -182,8 +182,8 @@ html {
 .header {
   display: flex;
   padding: 2rem;
-  margin-top: 2rem;
-  border: 1px solid #8c91be;
+  margin: 2rem;
+  border-bottom: 1px solid #8c91be;
   text-align: center;
   font-size: 200%;
   max-width: 980px;
@@ -205,6 +205,16 @@ html {
   font-weight: bold;
   color: #8c91be;
   text-align: center;
+}
+.h3s {
+  display: flex;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 2rem;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  color: green;
 }
 .inputs {
   display: flex;
