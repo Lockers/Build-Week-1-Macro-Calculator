@@ -136,6 +136,8 @@ html {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  margin: 1rem;
+  border-bottom: 1px solid #8c91be;
 }
 .mobile-nav a {
   display: flex;
@@ -168,7 +170,10 @@ html {
 }
 .footer-navbar a {
   display: flex;
+  justify-content: space-around;
   text-decoration: none;
+  padding: 1rem;
+  margin: 1 rem;
 }
 .header {
   display: flex;
@@ -180,6 +185,15 @@ html {
   max-width: 1000px;
   justify-content: center;
 }
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  color: #8484da;
+  border-bottom: 1px solid #8c91be;
+  padding: 1rem;
+  margin: 2rem;
+}
 .inputs {
   display: flex;
   justify-content: center;
@@ -188,7 +202,8 @@ html {
 }
 :root {
   height: 100%;
-  background-image: linear-gradient(to bottom right, #d5e7db, white);
+  background-image: linear-gradient(to bottom right, #efe9f7, white);
   margin: auto;
   max-width: 960px;
+  font-family: 'Exo 2', sans-serif;
 }

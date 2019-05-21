@@ -3,6 +3,7 @@
 
 <head>
     <title>Macro Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +14,13 @@
 <body>
     <div class="main-container">
         <div class="navigation">
+            <H1 class='title'>Macro Calculator!</H1>
             <nav class='navbar'>
-                <div class="title">
-                    <div class='mobile-nav'>
-                        <a href="#">Home</a>
-                        <a href="#">Macro Calculator</a>
-                        <a href="#">Weight Loss Calculators</a>
-                        <a href="#">Contact</a>
-                    </div>
+                <div class='mobile-nav'>
+                    <a href="index.html">Home</a>
+                    <a href="calculators.html">Weight Loss Calculators</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
                 </div>
             </nav>
         </div>
@@ -33,18 +33,40 @@
         </header>
         <div class="middle-content">
             <section>
-                <div class='inputs'><p>
-                    <span class="input">
-                        <input type="text" placeholder="Height">
-                        <span></span>
-                    </span>
-                </p></div>
+                <div class='inputs'>
+                    <p>
+                        <span class="input">
+                            <input type="text" placeholder="Height">
+                            <span></span>
+                        </span>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="small-10 columns">
+                        <div class="range-slider" data-slider
+                            data-options="display_selector: #days-off-count; initial: 28;">
+                            <span class="range-slider-handle" role="slider" tabindex="0"></span>
+                            <span class="range-slider-active-segment"></span>
+                        </div>
+                    </div>
+                    <div class="small-2 columns">
+                        <input type="number" id="days-off-count" value="28" />
+                    </div>
+                </div>
             </section>
             <section>
-                <div class='inputs'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cumque earum harum, minima in eaque omnis molestias voluptates? Nobis dolorum vero eum fugit expedita atque, exercitationem esse cum ullam magnam!</p></div>
+                <div class='inputs'>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cumque earum harum, minima in eaque
+                        omnis molestias voluptates? Nobis dolorum vero eum fugit expedita atque, exercitationem esse cum
+                        ullam magnam!</p>
+                </div>
             </section>
             <section>
-                <div class='inputs'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis voluptate, tempora modi voluptates praesentium aut illum vero fugit sit consectetur consequuntur, animi mollitia ipsam impedit culpa alias est reiciendis!</p></div>
+                <div class='inputs'>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis voluptate, tempora modi
+                        voluptates praesentium aut illum vero fugit sit consectetur consequuntur, animi mollitia ipsam
+                        impedit culpa alias est reiciendis!</p>
+                </div>
             </section>
         </div>
         <footer>
@@ -53,7 +75,7 @@
                 <a href="#">Macro Calculator</a>
                 <a href="#">Weight Loss Calculators</a>
                 <a href="#">Contact</a>
-            Copyright Matt Locklin
+                Copyright Matt Locklin
         </footer>
     </div>
 
