@@ -148,7 +148,7 @@ html {
   text-decoration: none;
   font-size: 150%;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .mobile-nav {
     max-width: 980px;
   }
@@ -159,7 +159,7 @@ html {
     justify-content: space-evenly;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .mobile-nav {
     justify-content: flex-end;
   }
@@ -178,6 +178,35 @@ html {
   margin: 1rem;
   font-size: 2rem;
   font-weight: bold;
+}
+button {
+  background-color: #e5f3e9;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #8c91be;
+  font-size: 1.5rem;
+  width: 18rem;
+  padding: 3rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  text-align: center;
+}
+button:hover {
+  background-color: #5cbf2a;
+}
+button:active {
+  position: relative;
+  top: 1px;
+  background-color: #5cbf2a;
+}
+button:focus {
+  position: relative;
+  top: 1px;
+  background-color: #5cbf2a;
 }
 .header {
   display: flex;
@@ -221,12 +250,26 @@ html {
   padding: 2rem;
   margin: 2rem;
 }
+.activity-level {
+  margin: 5rem 10rem;
+}
+.active-container {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: 5rem 0rem;
+}
+.exercise-container {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: 5rem 0rem;
+}
 .goal-container {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin: 7rem;
   max-width: 960px;
+  margin: 5rem 0rem;
 }
 .slider {
   -webkit-appearance: none;
@@ -254,64 +297,6 @@ html {
   border-radius: 50%;
   background: #4CAF50;
   cursor: pointer;
-}
-.active-container {
-  display: flex;
-  max-width: 960px;
-  margin: 5rem;
-  border-bottom: 1px solid #8c91be;
-}
-.active1 {
-  display: flex;
-  justify-content: space-around;
-}
-.active2 {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 5rem;
-}
-.exercise-container {
-  display: flex;
-  max-width: 960px;
-  margin: 5rem;
-  border-bottom: 1px solid #8c91be;
-}
-.exercise1 {
-  display: flex;
-  justify-content: center;
-}
-.exercise2 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5rem;
-}
-button {
-  background-color: #e5f3e9;
-  -moz-border-radius: 28px;
-  -webkit-border-radius: 28px;
-  border-radius: 28px;
-  border: 1px solid #18ab29;
-  display: flex;
-  cursor: pointer;
-  color: #8c91be;
-  font-size: 15px;
-  padding: 15px 15px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
-  text-align: center;
-}
-button:hover {
-  background-color: #5cbf2a;
-}
-button:active {
-  position: relative;
-  top: 1px;
-  background-color: #5cbf2a;
-}
-button:focus {
-  position: relative;
-  top: 1px;
-  background-color: #5cbf2a;
 }
 :root {
   height: 100%;
