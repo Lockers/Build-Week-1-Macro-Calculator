@@ -208,6 +208,12 @@ button:focus {
   top: 1px;
   background-color: #5cbf2a;
 }
+.result {
+  display: none;
+  justify-content: center;
+  padding: 2rem;
+  margin: 5rem;
+}
 .header {
   display: flex;
   padding: 2rem;
@@ -270,6 +276,27 @@ button:focus {
   justify-content: center;
   max-width: 960px;
   margin: 5rem 0rem;
+}
+#macroResults {
+  display: none;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid green;
+}
+.results-header {
+  padding: 1rem;
+  margin: 1rem;
+}
+.results {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+p {
+  padding: 1rem;
 }
 .slider {
   -webkit-appearance: none;

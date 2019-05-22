@@ -10,6 +10,8 @@
     <script src="sliders\sliders.js" async></script>
     <script src="buttons\buttons.js" async></script>
     <script src="nav\nav.js" async></script>
+    <script src="resultBox\resultBox.js" async></script>
+    </head>
 </head>
 
 </html>
@@ -131,6 +133,21 @@
                             <button id='ex3' value='3'>Maintain current weight</button>
                             <button id='ex4' value='4'>Gain weight steadily</button>
                         </span>
+                        </div>
+                </div>
+                <button onclick="myFunction()">Get Macros</button>
+            </section>
+            <section>
+                <div class="hidden-results">
+                    <div class="result-header">
+                    </div>
+                    <div class="results">
+                        <div class='h3s' id='macroResults'>
+                            <h3 class='h3s'>Total calories 2000</h3>
+                            <p>Carbohydrates 20</p>
+                            <p>Protein 20</p>
+                            <p>Fat 20 </p>
+                        </div>
                     </div>
                 </div>
             </section>
