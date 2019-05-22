@@ -7,6 +7,7 @@
     <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sliders\sliders.js" async></script>
 </head>
 
 </html>
@@ -39,14 +40,14 @@
                 <div class="h3s"><h3>Enter your Gender and Age</h3>
                 </div>
                 <div class="slider-headers">
-                    <h2>Are you a male or female?</h2>
+                    <h2 id='sex'>Are you a male or female?</h2>
                 </div>
                 <div class='inputs'>
                     <input type="range" min="1" max="2" step="1" value="1" data-orientation="vertical" class="slider"
                         id="gender">
                 </div>
                 <div class="slider-headers">
-                    <h2>I am <placeholder> years young</h2>
+                    <h2 id='logAge'>I am 30 years young</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="18" max="75" step="1" value="30" data-orientation="vertical" class="slider"
@@ -58,21 +59,21 @@
                     <h3>Enter Height and Weight</h3>
                 </div>
                 <div class="slider-headers">
-                    <h2>Current Height (Cms)</h2>
+                    <h2 id='heightHead'>Current Height 180Cm</h2>
                 </div>
                 <div class='inputs'>
                     <input type="range" min="80" max="240" step="1" value="180" data-orientation="vertical"
                         class="slider" id="height">
                 </div>
                 <div class="slider-headers">
-                    <h2>Current Weight (lbs)</h2>
+                    <h2 id='weightHead'>Current Weight 150lbs</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
                         class="slider" id="weight">
                 </div>
                 <div class="slider-headers">
-                    <h2>Goal Weight (lbs)</h2>
+                    <h2 id='GoalWeightHead'>Goal Weight 150lbs</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
