@@ -6,6 +6,9 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+    <script src="buttons\buttons.js" async></script>
+    <script src="nav\navbar.js" async></script>
+    <script src="sliders\sliders.js" async></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -39,14 +42,14 @@
                 <div class="h3s"><h3>Enter your Gender and Age</h3>
                 </div>
                 <div class="slider-headers">
-                    <h2>Are you a male or female?</h2>
+                    <h2 id='sex'>Are you a male or female?</h2>
                 </div>
                 <div class='inputs'>
                     <input type="range" min="1" max="2" step="1" value="1" data-orientation="vertical" class="slider"
                         id="gender">
                 </div>
                 <div class="slider-headers">
-                    <h2>I am <placeholder> years young</h2>
+                    <h2 id='logAge'>I am 30 years young</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="18" max="75" step="1" value="30" data-orientation="vertical" class="slider"
@@ -58,21 +61,21 @@
                     <h3>Enter Height and Weight</h3>
                 </div>
                 <div class="slider-headers">
-                    <h2>Current Height (Cms)</h2>
+                    <h2 id='heightHead'>Current Height is 180cm</h2>
                 </div>
                 <div class='inputs'>
                     <input type="range" min="80" max="240" step="1" value="180" data-orientation="vertical"
                         class="slider" id="height">
                 </div>
                 <div class="slider-headers">
-                    <h2>Current Weight (lbs)</h2>
+                    <h2 id='weightHead'>Current Weight is 150lbs</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
                         class="slider" id="weight">
                 </div>
                 <div class="slider-headers">
-                    <h2>Goal Weight (lbs)</h2>
+                    <h2 id='GoalWeightHead'>Goal Weight (lbs)</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
@@ -86,14 +89,14 @@
                 <div class="active-container">
                     <div class="active1">
                         <span>
-                            <button>Sedentary, desk job, work from home</button>
-                            <button>Light Activity, Some standing and moving</button>
+                            <button id='act1'>Sedentary, desk job, work from home</button>
+                            <button id='act2'>Light Activity, Some standing and moving</button>
                         </span>
                     </div>
                     <div class="active2">
                         <span>
-                            <button>Active, mostly standing and moving</button>
-                            <button>Very Active, Mostly moving and lifting</button>
+                            <button id='act3'>Active, mostly standing and moving</button>
+                            <button id='act4'>Very Active, Mostly moving and lifting</button>
                         </span>
                     </div>
                 </div>
@@ -103,14 +106,14 @@
                 <div class="exercise-container">
                 <div class="exercise1">
                     <span>
-                        <button>Light, I can hold a conversation</button>
-                        <button>Moderate, I am breathing hard</button>
+                        <button id='ex1'>Light, I can hold a conversation</button>
+                        <button id='ex2'>Moderate, I am breathing hard</button>
                     </span>
                 </div>
                     <div class="exercise2">
                         <span>
-                            <button>Difficult, Cant't talk, busy sweating</button>
-                            <button>Intense, I seriously might die!</button>
+                            <button id='ex3'>Difficult, Cant't talk, busy sweating</button>
+                            <button id='ex4'>Intense, I seriously might die!</button>
                         </span>
                     </div>
                 </div>
