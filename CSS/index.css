@@ -218,18 +218,14 @@ html {
 }
 .inputs {
   display: flex;
-  justify-content: center;
   padding: 2rem;
   margin: 2rem;
 }
-.weight-height {
-  margin: 5rem;
-  border-bottom: 1px solid #8c91be;
-  max-width: 960px;
-}
-.gender-age {
-  margin: 5rem;
-  border-bottom: 1px solid #8c91be;
+.goal-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 7rem;
   max-width: 960px;
 }
 .slider {
@@ -267,11 +263,11 @@ html {
 }
 .active1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .active2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 5rem;
 }
 .exercise-container {
@@ -295,7 +291,7 @@ button {
   -webkit-border-radius: 28px;
   border-radius: 28px;
   border: 1px solid #18ab29;
-  display: inline-block;
+  display: flex;
   cursor: pointer;
   color: #8c91be;
   font-size: 15px;
