@@ -6,12 +6,10 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
-
-    <script src="buttons\buttons.js" async></script>
-    <script src="nav\navbar.js" async></script>
-    <script src="sliders\sliders.js" async></script>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sliders\sliders.js" async></script>
+    <script src="buttons\buttons.js" async></script>
+    <script src="nav\nav.js" async></script>
 </head>
 
 </html>
@@ -32,16 +30,16 @@
         <header>
             <div class="header">
                 <div class="img">
-                 <img src="Images/Food.jpg" style="width:300px;height:300px;">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt hic atque laborum, repellat
-                    molestiae laboriosam voluptatem aliquid rerum, dolorem quasi, fugit veniam porro dolorum. Animi,
-                    mollitia cumque! Perferendis, voluptatem?</p>
-                    </div>
+                    <img src="Images/Food.jpg" style="width:300px;height:300px;">
+                    <p>Welcome to Macro Calculator!! Below you can </p>
+                </div>
+
             </div>
         </header>
         <div class="middle-content">
             <section class='gender-age'>
-                <div class="h3s"><h3>Enter your Gender and Age</h3>
+                <div class="h3s">
+                    <h3>Enter your Gender and Age</h3>
                 </div>
                 <div class="slider-headers">
                     <h2 id='sex'>Are you a male or female?</h2>
@@ -63,21 +61,21 @@
                     <h3>Enter Height and Weight</h3>
                 </div>
                 <div class="slider-headers">
-                    <h2 id='heightHead'>Current Height is 180cm</h2>
+                    <h2 id='heightHead'>Current Height 180Cm</h2>
                 </div>
                 <div class='inputs'>
                     <input type="range" min="80" max="240" step="1" value="180" data-orientation="vertical"
                         class="slider" id="height">
                 </div>
                 <div class="slider-headers">
-                    <h2 id='weightHead'>Current Weight is 150lbs</h2>
+                    <h2 id='weightHead'>Current Weight 150lbs</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
                         class="slider" id="weight">
                 </div>
                 <div class="slider-headers">
-                    <h2 id='GoalWeightHead'>Goal Weight (lbs)</h2>
+                    <h2 id='GoalWeightHead'>Goal Weight 150lbs</h2>
                 </div>
                 <div class="inputs">
                     <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
@@ -86,36 +84,53 @@
             </section>
             <section class="activity-level">
                 <div class="h3s">
-                    <h3>Enter your normal daily activity level</h3>
+                    <h3>Select your normal daily activity level</h3>
                 </div>
                 <div class="active-container">
                     <div class="active1">
                         <span>
-                            <button id='act1'>Sedentary, desk job, work from home</button>
-                            <button id='act2'>Light Activity, Some standing and moving</button>
+                            <button id='act1' value='1'>Sedentary, desk job, work from home</button>
+                            <button id='act2' value='2'>Light Activity, Some standing and moving</button>
                         </span>
                     </div>
                     <div class="active2">
                         <span>
-                            <button id='act3'>Active, mostly standing and moving</button>
-                            <button id='act4'>Very Active, Mostly moving and lifting</button>
+                            <button id='act3' value='3'>Active, mostly standing and moving</button>
+                            <button id='act4' value='4'>Very Active, Mostly moving/lifting</button>
                         </span>
                     </div>
                 </div>
                 <div class="h3s">
-                    <h3>Enter your normal daily exercise level</h3>
+                    <h3>Select your normal daily exercise level</h3>
                 </div>
                 <div class="exercise-container">
-                <div class="exercise1">
-                    <span>
-                        <button id='ex1'>Light, I can hold a conversation</button>
-                        <button id='ex2'>Moderate, I am breathing hard</button>
-                    </span>
-                </div>
+                    <div class="exercise1">
+                        <span>
+                            <button id='ex1' value='1'>Light, I can hold a conversation</button>
+                            <button id='ex2' value='2'>Moderate, I am breathing hard</button>
+                        </span>
+                    </div>
                     <div class="exercise2">
                         <span>
-                            <button id='ex3'>Difficult, Cant't talk, busy sweating</button>
-                            <button id='ex4'>Intense, I seriously might die!</button>
+                            <button id='ex3' value='3'>Difficult, Lots of sweating</button>
+                            <button id='ex4' value='4'>Intense, Maxium effort</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="h3s">
+                    <h3>Select your weight goal</h3>
+                </div>
+                <div class="goal-container">
+                    <div class="goal1">
+                        <span>
+                            <button id='ex1' value='1'>Aggressive weight loss(20%)</button>
+                            <button id='ex2' value='2'>Moderate weight loss(10%)</button>
+                        </span>
+                    </div>
+                    <div class="goal2">
+                        <span>
+                            <button id='ex3' value='3'>Maintain current weight</button>
+                            <button id='ex4' value='4'>Gain weight steadily</button>
                         </span>
                     </div>
                 </div>
