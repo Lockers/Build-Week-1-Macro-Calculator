@@ -322,6 +322,11 @@ button:hover {
   top: 1px;
   background-color: #5cbf2a;
 }
+.active-container button:focus {
+  position: relative;
+  top: 1px;
+  background-color: #5cbf2a;
+}
 :root {
   height: 100%;
   background-image: linear-gradient(to bottom right, #efe9f7, white);
