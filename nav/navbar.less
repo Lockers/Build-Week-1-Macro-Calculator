@@ -1,0 +1,50 @@
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 1px solid  rgb(140, 145, 190);
+
+    a {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      text-decoration: none;
+      font-size: 150%;
+    }
+
+      @media @desktop {
+      // padding: 1rem;
+      // margin: 1rem;
+      max-width: 980px;
+    }
+      @media @tablet {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+      @media @desktop {
+      justify-content: flex-end;
+    }
+}
+  
+.footer-navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+    a   {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+  }
+
+}

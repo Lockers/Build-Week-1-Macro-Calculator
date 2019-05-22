@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Macro Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sliders\sliders.js" async></script>
+    <script src="buttons\buttons.js" async></script>
+    <script src="nav\nav.js" async></script>
+</head>
+
+</html>
+
+<body>
+    <div class="main-container">
+        <div class="navigation">
+            <H1 class='title'>Macro Calculator!</H1>
+            <nav class='navbar'>
+                <div class='mobile-nav'>
+                    <a href="index.html">Home</a>
+                    <a href="calculators.html">Weight Loss Calculators</a>
+                    <a href="aboutUs.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </div>
+        <header>
+            <div class="header">
+                <div class="img">
+                    <img src="Images/Food.jpg" style="width:300px;height:300px;">
+                    <p>Welcome to Macro Calculator!! Below you can </p>
+                </div>
+
+            </div>
+        </header>
+        <div class="middle-content">
+            <section class='gender-age'>
+                <div class="h3s">
+                    <h3>Enter your Gender and Age</h3>
+                </div>
+                <div class="slider-headers">
+                    <h2 id='sex'>Are you a male or female?</h2>
+                </div>
+                <div class='inputs'>
+                    <input type="range" min="1" max="2" step="1" value="1" data-orientation="vertical" class="slider"
+                        id="gender">
+                </div>
+                <div class="slider-headers">
+                    <h2 id='logAge'>I am 30 years young</h2>
+                </div>
+                <div class="inputs">
+                    <input type="range" min="18" max="75" step="1" value="30" data-orientation="vertical" class="slider"
+                        id="age">
+                </div>
+            </section>
+            <section class='weight-height'>
+                <div class="h3s">
+                    <h3>Enter Height and Weight</h3>
+                </div>
+                <div class="slider-headers">
+                    <h2 id='heightHead'>Current Height 180Cm</h2>
+                </div>
+                <div class='inputs'>
+                    <input type="range" min="80" max="240" step="1" value="180" data-orientation="vertical"
+                        class="slider" id="height">
+                </div>
+                <div class="slider-headers">
+                    <h2 id='weightHead'>Current Weight 150lbs</h2>
+                </div>
+                <div class="inputs">
+                    <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
+                        class="slider" id="weight">
+                </div>
+                <div class="slider-headers">
+                    <h2 id='GoalWeightHead'>Goal Weight 150lbs</h2>
+                </div>
+                <div class="inputs">
+                    <input type="range" min="95" max="400" step="1" value="150" data-orientation="vertical"
+                        class="slider" id="goalWeight">
+                </div>
+            </section>
+            <section class="activity-level">
+                <div class="h3s">
+                    <h3>Select your normal daily activity level</h3>
+                </div>
+                <div class="active-container">
+                    <div class="active1">
+                        <span>
+                            <button id='act1' value='1'>Sedentary, desk job, work from home</button>
+                            <button id='act2' value='2'>Light Activity, Some standing and moving</button>
+                        </span>
+                    </div>
+                    <div class="active2">
+                        <span>
+                            <button id='act3' value='3'>Active, mostly standing and moving</button>
+                            <button id='act4' value='4'>Very Active, Mostly moving/lifting</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="h3s">
+                    <h3>Select your normal daily exercise level</h3>
+                </div>
+                <div class="exercise-container">
+                    <div class="exercise1">
+                        <span>
+                            <button id='ex1' value='1'>Light, I can hold a conversation</button>
+                            <button id='ex2' value='2'>Moderate, I am breathing hard</button>
+                        </span>
+                    </div>
+                    <div class="exercise2">
+                        <span>
+                            <button id='ex3' value='3'>Difficult, Lots of sweating</button>
+                            <button id='ex4' value='4'>Intense, Maxium effort</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="h3s">
+                    <h3>Select your weight goal</h3>
+                </div>
+                <div class="goal-container">
+                    <div class="goal1">
+                        <span>
+                            <button id='ex1' value='1'>Aggressive weight loss(20%)</button>
+                            <button id='ex2' value='2'>Moderate weight loss(10%)</button>
+                        </span>
+                    </div>
+                    <div class="goal2">
+                        <span>
+                            <button id='ex3' value='3'>Maintain current weight</button>
+                            <button id='ex4' value='4'>Gain weight steadily</button>
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <nav class='footer-navbar'>
+                    <a href="#">Home</a>
+                    <a href="#">Macro Calculator</a>
+                    <a href="#">Weight Loss Calculators</a>
+                    <a href="#">Contact</a>
+                </nav>
+                <p>Copyright Matt Locklin</p>
+            </footer>
+        </div>
+
+</body>

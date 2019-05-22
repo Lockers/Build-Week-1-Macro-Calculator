@@ -1,0 +1,22 @@
+{
+  "name": "build-week-1-macro-calculator",
+  "version": "1.0.0",
+  "description": "Macro Calc",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lockers/Build-Week-1-Macro-Calculator.git"
+  },
+  "keywords": [
+    "Git"
+  ],
+  "author": "Matt Locklin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Lockers/Build-Week-1-Macro-Calculator/issues"
+  },
+  "homepage": "https://github.com/Lockers/Build-Week-1-Macro-Calculator#readme"
+}
