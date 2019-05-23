@@ -320,20 +320,14 @@ button:focus {
 p {
   padding: 1rem;
 }
-.container {
+.get-macros {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
-b {
-  display: flex;
+.inputs p {
   font-size: 2rem;
   font-weight: 'bold';
-  margin-top: 2rem;
-  align-items: center;
-}
-input {
-  margin: 2rem;
+  color: #8c91be;
 }
 .slider {
   -webkit-appearance: none;
@@ -475,6 +469,25 @@ input {
 .psw {
   font-size: 2rem;
   justify-content: right;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+b {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 'bold';
+  margin-top: 2rem;
+  align-items: center;
+}
+input {
+  margin: 2rem;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
 }
 :root {
   height: 100%;
