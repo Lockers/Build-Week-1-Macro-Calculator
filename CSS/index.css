@@ -215,7 +215,7 @@ button:focus {
   margin: 5rem;
 }
 .login-Button {
-  background-color: #44c767;
+  background-color: #b0b6d8;
   -moz-border-radius: 28px;
   -webkit-border-radius: 28px;
   border-radius: 28px;
@@ -230,9 +230,10 @@ button:focus {
   text-shadow: 0px 1px 0px #2f6627;
 }
 .login-Button:hover {
-  background-color: #5cbf2a;
+  background-color: #969eca;
 }
 .login-Button:active {
+  background-color: #969eca;
   position: relative;
   top: 1px;
 }
@@ -460,6 +461,10 @@ p {
 .psw {
   font-size: 2rem;
   justify-content: right;
+}
+.modal {
+  margin: 3rem;
+  padding: 1rem;
 }
 :root {
   height: 100%;
