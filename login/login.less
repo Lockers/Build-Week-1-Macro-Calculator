@@ -54,30 +54,31 @@
   from {transform: scale(0)} 
   to {transform: scale(1)}
 }
-.psw{
-  font-size: 2rem;
+
+.psw {
+  font-size: @bigFont;
   justify-content: right;
 }
 
-.container{
+.container {
     display:flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-b{
+
+b {
     display: flex;
-    font-size: 2rem;
+    font-size: @bigFont;
     font-weight: 'bold';
-    // padding: 2rem;
-    margin-top: 2rem;
+    margin-top: @bigMargin;
     align-items: center;
 }
-input{
-    margin: 2rem;
+input {
+    margin: @bigMargin;
 }
-.login-button{
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-  margin: 2rem;
+
+.login-button {
+  .displaycenter;
+  padding: @bigPadding;
+  margin: @bigMargin;
 }

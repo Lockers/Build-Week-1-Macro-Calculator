@@ -179,6 +179,10 @@ html {
   font-size: 2rem;
   font-weight: bold;
 }
+.displaycenter {
+  display: flex;
+  justify-content: center;
+}
 button {
   background-color: #e5f3e9;
   -moz-border-radius: 28px;
@@ -239,13 +243,13 @@ button:focus {
 }
 .header {
   display: flex;
+  justify-content: center;
   padding: 2rem;
   margin: 2rem;
   border-bottom: 1px solid #8c91be;
   text-align: center;
   font-size: 200%;
   max-width: 980px;
-  justify-content: center;
 }
 .title {
   display: flex;
@@ -266,12 +270,12 @@ button:focus {
 }
 .h3s {
   display: flex;
+  justify-content: center;
   font-size: 2rem;
   padding: 1rem;
   margin: 2rem;
   font-weight: bold;
   text-align: center;
-  justify-content: center;
   color: green;
 }
 .inputs {
@@ -488,6 +492,8 @@ input {
 .login-button {
   display: flex;
   justify-content: center;
+  padding: 2rem;
+  margin: 2rem;
 }
 :root {
   height: 100%;

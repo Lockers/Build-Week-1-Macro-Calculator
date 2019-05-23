@@ -3,6 +3,12 @@
 @tablet: ~"(min-width: 550px)";
 @desktop: ~"(min-width: 800px)";
 
+// Colours
+@headFontCol: rgb(140, 145, 190);
+
+// Fonts
+@fontExo: 'Exo 2', sans-serif;
+
 // Margins
 @smallMargin: 1rem;
 @normalMargin: 1.5rem;
@@ -13,5 +19,14 @@
 @normalPadding: 1.5rem;
 @bigPadding: 2rem;
 
-@fontExo: 'Exo 2', sans-serif;
-@headFontCol: rgb(140, 145, 190);
+// Font sizes
+
+@smallFont: 1rem;
+@bigFont: 2rem;
+@extraBigFont: 4rem;
+
+// mixins
+.displaycenter {
+    display: flex;
+    justify-content: center;
+}
