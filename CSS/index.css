@@ -286,7 +286,6 @@ button:focus {
   display: flex;
   justify-content: center;
   max-width: 960px;
-  margin: 5rem 0rem;
 }
 .exercise-container {
   display: flex;
@@ -320,6 +319,21 @@ button:focus {
 }
 p {
   padding: 1rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+b {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 'bold';
+  margin-top: 2rem;
+  align-items: center;
+}
+input {
+  margin: 2rem;
 }
 .slider {
   -webkit-appearance: none;
@@ -461,10 +475,6 @@ p {
 .psw {
   font-size: 2rem;
   justify-content: right;
-}
-.modal {
-  margin: 3rem;
-  padding: 1rem;
 }
 :root {
   height: 100%;
