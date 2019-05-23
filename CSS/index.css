@@ -286,6 +286,14 @@ button:focus {
 .activity-level {
   margin: 5rem 10rem;
 }
+@media (min-width: 550px) {
+  .activity-level {
+    margin: 10rem 30rem ;
+  }
+}
+@media (min-width: 550px) {
+  margin: 15rem;
+}
 .active-container {
   display: flex;
   justify-content: center;
@@ -426,7 +434,7 @@ p {
 }
 /* Modal Content/Box */
 .modal-content {
-  background-image: linear-gradient(to bottom right, blue, white);
+  background-image: linear-gradient(to bottom right, lightblue, white);
   margin: 5px auto;
   /* 15% from the top and centered */
   border: 1px solid #888;
