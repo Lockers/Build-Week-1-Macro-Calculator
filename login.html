@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Macro Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="buttons\buttons.js" async></script>
+    <script src="nav\nav.js" async></script>
+    <script src="login\login.js" async></script>
+
+</head>
+
+</html>
+
+<body>
+    <div class="main-container">
+        <div class="navigation">
+            <nav class='navbar'>
+                <H1 class='title'>Macro Calculator!</H1>
+                <div class='mobile-nav'>
+                    <a href="index.html">Home</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="login.html">Log In</a>
+                </div>
+            </nav>
+            <!-- Button to open the modal login form -->
+            <button class='login-Button' onclick="document.getElementById('id01').style.display='block'">Login</button>
+            
+            <!-- The Modal -->
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+            
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="/action_page.php">
+                    <div class="imgcontainer">
+                        <img src="Images\login.jpg" style="width:400px;height:200px;" class="loginPic">
+                    </div>
+            
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                        <button class='login-Button' type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+            
+                    <div class="container" style="background-image: linear-gradient(to bottom right, yellow, white)">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class='login-Button' class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <nav class='footer-navbar'>
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="login.html">Log In</a>
+            </nav>
+            
+            <p class='footertag'>Copyright Matt Locklin</p>
+        </footer>
+    </div>
+</body>
