@@ -1,0 +1,518 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #8c91be;
+}
+.mobile-nav a {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 150%;
+}
+@media (min-width: 800px) {
+  .mobile-nav {
+    max-width: 980px;
+  }
+}
+@media (min-width: 550px) {
+  .mobile-nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 800px) {
+  .mobile-nav {
+    justify-content: flex-end;
+  }
+}
+.footer-navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer-navbar a {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.displaycenter {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #e5f3e9;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #8c91be;
+  font-size: 1.5rem;
+  width: 18rem;
+  padding: 3rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  text-align: center;
+}
+button:hover {
+  background-color: #5cbf2a;
+}
+button:active {
+  position: relative;
+  top: 1px;
+  background-color: #5cbf2a;
+}
+button:focus {
+  position: relative;
+  top: 1px;
+  background-color: #5cbf2a;
+}
+.result {
+  display: none;
+  justify-content: center;
+  padding: 2rem;
+  margin: 5rem;
+}
+.login-Button {
+  background-color: #b0b6d8;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.login-Button:hover {
+  background-color: #969eca;
+}
+.login-Button:active {
+  background-color: #969eca;
+  position: relative;
+  top: 1px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  margin: 2rem;
+  border-bottom: 1px solid #8c91be;
+  text-align: center;
+  font-size: 200%;
+  max-width: 980px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 4rem;
+  color: #8c91be;
+  border-bottom: 1px solid #8c91be;
+  padding: 1rem;
+  margin: 2rem;
+}
+.slider-headers {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #8c91be;
+  text-align: center;
+}
+.h3s {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+}
+.inputs {
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+}
+.activity-level {
+  margin: 5rem 10rem;
+}
+@media (min-width: 550px) {
+  .activity-level {
+    margin: 10rem 30rem ;
+  }
+}
+@media (min-width: 550px) {
+  margin: 15rem;
+}
+.active-container {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+}
+.exercise-container {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: 5rem 0rem;
+}
+.goal-container {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: 5rem 0rem;
+}
+#macroResults {
+  display: none;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid green;
+}
+.results-header {
+  padding: 1rem;
+  margin: 1rem;
+}
+.results {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+p {
+  padding: 1rem;
+}
+.get-macros {
+  display: flex;
+  justify-content: center;
+}
+.inputs p {
+  font-size: 2rem;
+  font-weight: 'bold';
+  color: #8c91be;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.articles {
+  margin-top: 95px;
+}
+.article {
+  margin: 20px 10%;
+  padding: 0rem 0rem 5rem 0rem;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+.article h2 {
+  font-size: 28px;
+  padding: 0;
+  margin: 15px 0 0;
+}
+.article .date {
+  margin: 0;
+  font-size: 14px;
+}
+.article .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.article .expandButton {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 12px;
+  color: grey;
+  cursor: pointer;
+  transform: translate(-50%);
+  background-color: white;
+  margin: 1rem;
+}
+.article-open {
+  height: 400px;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #000000;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-image: linear-gradient(to bottom right, lightblue, white);
+  margin: 5px auto;
+  /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.psw {
+  font-size: 2rem;
+  justify-content: right;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+b {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 'bold';
+  margin-top: 2rem;
+  align-items: center;
+}
+input {
+  margin: 2rem;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+:root {
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #efe9f7, white);
+  margin: auto;
+  max-width: 960px;
+  font-family: 'Exo 2', sans-serif;
+}
+.footertag {
+  display: flex;
+  justify-content: center;
+  font-weight: 'bold';
+  font-size: 1rem;
+}
